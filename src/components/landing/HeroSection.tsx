@@ -93,13 +93,13 @@ export const HeroSection = () => {
           </div>
 
           {/* Headline */}
-          <h1 className="hero-headline text-4xl md:text-6xl lg:text-7xl font-extrabold text-foreground leading-[1.05] mb-6">
+          <h1 className="hero-headline text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-foreground leading-[1.1] md:leading-[1.05] mb-6">
             Stop Chasing Clients. <br className="hidden md:block" />
             <span className="text-gradient bg-[length:200%_auto]">Let Them Come To You.</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="hero-subheadline text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-2xl">
+          <p className="hero-subheadline text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed mb-8 max-w-2xl">
             We build automated growth engines that flood your business with qualified leads every single day. No guesswork. No wasted ad spend. Just predictable revenue.
           </p>
 

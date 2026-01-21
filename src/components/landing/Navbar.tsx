@@ -35,7 +35,7 @@ export const Navbar = () => {
                     <img
                         src="/logo.png"
                         alt="GWZ Agency Logo"
-                        className="h-10 md:h-12 w-auto object-contain bg-white/5 p-1.5 rounded-xl border border-white/10 backdrop-blur-md shadow-sm transition-all duration-300 md:hover:scale-[1.8] md:origin-left hover:bg-white/10 hover:shadow-[0_0_15px_-3px_theme(colors.accent.DEFAULT)] active:scale-95"
+                        className="h-8 md:h-12 w-auto object-contain bg-white/5 p-1.5 rounded-xl border border-white/10 backdrop-blur-md shadow-sm transition-all duration-300 md:hover:scale-[1.8] md:origin-left hover:bg-white/10 hover:shadow-[0_0_15px_-3px_theme(colors.accent.DEFAULT)] active:scale-95"
                     />
                 </a>
 

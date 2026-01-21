@@ -100,7 +100,7 @@ export const PricingSection = () => {
 
       <div className="container-narrow relative z-10">
         <div className="pricing-header text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
             Simple Packages.{" "}
             <span className="text-gradient">Clear Outcomes.</span> No Confusion.
           </h2>
@@ -111,7 +111,7 @@ export const PricingSection = () => {
             <div
               key={index}
               className={cn(
-                "pricing-card relative flex flex-col p-8 rounded-2xl transition-all duration-500",
+                "pricing-card relative flex flex-col p-6 sm:p-8 rounded-2xl transition-all duration-500",
                 pkg.popular
                   ? "gradient-border bg-card glow-effect scale-[1.02] z-10"
                   : "bg-card border border-border hover-glow"

@@ -78,7 +78,7 @@ export const ProblemSection = () => {
 
       <div className="container-narrow relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="problem-headline text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-12">
+          <h2 className="problem-headline text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-12 leading-tight">
             You're Not Struggling Because{" "}
             <span className="text-gradient">Your Business Is Bad</span>
           </h2>

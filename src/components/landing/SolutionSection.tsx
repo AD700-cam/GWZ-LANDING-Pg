@@ -73,11 +73,11 @@ export const SolutionSection = () => {
 
       <div className="container-narrow relative z-10">
         <div className="solution-header text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Our 3-Step{" "}
             <span className="text-gradient">Customer Acquisition</span> System
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             We focus only on what actually brings customers — visibility, trust, and conversion.
           </p>
         </div>

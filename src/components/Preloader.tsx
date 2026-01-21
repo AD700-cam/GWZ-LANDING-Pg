@@ -12,21 +12,21 @@ const Preloader = () => {
         tl.to(".preloader-text", {
             opacity: 1,
             y: 0,
-            duration: 0.6,
+            duration: 0.4,
             ease: "power4.out",
-            stagger: 0.05,
+            stagger: 0.03,
         })
             .to(".preloader-text", {
                 opacity: 0,
-                y: -20,
-                duration: 0.4,
+                y: -10,
+                duration: 0.2,
                 ease: "power4.in",
-                delay: 0.2,
-                stagger: 0.02,
+                delay: 0.1,
+                stagger: 0.01,
             })
             .to(".preloader-bg", {
                 yPercent: -100,
-                duration: 0.8,
+                duration: 0.6,
                 ease: "expo.inOut",
             });
 
