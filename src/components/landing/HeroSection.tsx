@@ -129,14 +129,6 @@ export const HeroSection = () => {
                 Claim Your Free Growth Plan
               </a>
             </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="hero-cta border-border text-foreground hover:bg-secondary hover:border-accent/50 text-base font-medium px-8 py-6 rounded-xl"
-            >
-              <a href="#results">See Our Results</a>
-            </Button>
           </div>
         </div>
       </div>
